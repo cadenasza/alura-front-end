@@ -42,8 +42,23 @@ body {
     justify-content: space-between;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__links {
     background-color: #22D4FD;
     width: 280px;
+    border-radius: 16px;
+    font-size: 24px;
+    padding:16px 0;
+    color: #000;
+    margin: 0 15px;
+    font-weight: 600;
+    text-decoration: none;
     text-align: center
+}
+
+img {
+    width: 488px;
+    height: 550px;
+    border-top: 3px solid #22D4FD;
+    border-right: 3px solid #22D4FD;
+    border-radius: 16px;
 }
