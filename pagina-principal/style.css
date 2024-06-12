@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;   
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.apresentacao__links__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 378px;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    font-size: 24px;
+    padding:16px 0;
+    color: #F6F6F6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 15px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center
+}
+
+.apresentacao__links__links:hover {
+    background-color: #272727;
+}
+
+.eu {
+    width: 488px;
+    height: 550px;
+    border-top: 3px solid #22D4FD;
+    border-right: 3px solid #22D4FD;
+    border-radius: 16px;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    padding:24px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
