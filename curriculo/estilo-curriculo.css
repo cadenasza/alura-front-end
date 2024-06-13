@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 615px;
+}
+.titulo{
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+.sobre {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cursos {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.imagem {
+    width: 480px;
+    height: 550px;
+    border-top: 3px solid #22D4FD;
+    border-right: 3px solid #22D4FD;
+    border-radius: 16px;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    padding:24px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
