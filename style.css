@@ -1,20 +1,3 @@
-@media (max-width: 1200px) {
-
-    .cabecalho {
-        padding: 10%;
-    }
-    .cabecalho__menu {
-        justify-content: center;
-    }
-
-    .aprensentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao__conteudo {
-        width: auto;
-    }
-}
 
 * {
     margin: 0;
@@ -131,3 +114,21 @@ body {
     width: 100%;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .aprensentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
